@@ -3,6 +3,9 @@
 ## Overview
 Project Nautilus is the Naval subdivision of the xFusionCorp Industries. Nautilus Application helps the Naval forces to make smart procurement decisions of their manned or unmanned maritime systems while ensuring that the operational requirements are met. It also aims to provide the best-in-class operational support, improving the safety and life extension of existing machines and reducing the cost of ownership.
 
+## System Administrator
+As a system administrator with working on Nautilus project, I am exploring different skills to ensure the smooth run of this virtual organization.
+
 ## Current Repertoire
 - Sonar Technology and Systems
 - LUSV - Large Unmanned Surface Vehicles
