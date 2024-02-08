@@ -11,8 +11,9 @@ Project Nautilus is the Naval subdivision of the xFusionCorp Industries. Nautilu
 - Laser Guidance Systems
 
 ## Application Architecture
-Nautilus deployment architecture can be viewed [here]([link_to_architecture](https://lucid.app/lucidchart/58e22de2-c446-4b49-ae0f-db79a3318e97/view?page=0_0#)).
-https://lucid.app/lucidchart/58e22de2-c446-4b49-ae0f-db79a3318e97/view?page=0_0#
+### Nautilus deployment architecture 
+<img src=https://github.com/Reeceakhun/kodekloud-task/blob/f58ddd85eea4276fd6025b96c1945b7e5f19a1f2/Kodekloud-engineer.jpeg >
+
 - **Data Tier:** The Data tier is the layer that stores data with the retrieval storage and execution methods made by the application layer. We are making use of MariaDB which is one of the most popular open-source relational databases.
 - **Application Tier:** Makes use of a LAMP stack (Linux, Apache, MySQL, PHP) for web application development.
 - **Client Tier:** Utilizes web browser software for processing and displaying HTML resources and managing HTTP requests and responses.
