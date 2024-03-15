@@ -13,4 +13,10 @@ c. There is a ROOT.war file on Jump host at location /tmp.
 Deploy it on this tomcat server and make sure the webpage works directly on base URL i.e curl http://stapp01:8085
 
 # Solution
-`yum install tomcat -y`
+`scp /tmp/ROOT.war tony@stapp01:/tmp`  
+`cp /tmp/ROOT.war /usr/share/tomcat/webapps`  
+`yum install tomcat -y`  
+`vi /usr/share/tomcat/conf/server.xml`  
+`systemctl start tomcat`  
+`systemctl status tomcat`  
+`curl http://stapp01:8085`
