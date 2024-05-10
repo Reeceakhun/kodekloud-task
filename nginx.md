@@ -12,3 +12,13 @@ c. Make sure you do not update the apache port that is already defined in the ap
 
 
 d. Once done, you can access the website using StaticApp button on the top bar.
+
+
+## SOLUTION 
+add;
+upstream backend {
+    server
+    }
+
+Edit location configuration adding.
+proxy_pass http://backend;
